@@ -1,0 +1,27 @@
+Python com Jupyter - Dicas
+
+Dentro do VSCode:
+
+- Shift+Enter - Cria uma nova célula de código;
+- CTRL+' - Abre o terminal no VSCode;
+- CTRL+Shift+P - Abre a paleta de comandos;
+- CTRL+Shift+X - Abre o menu de extensões;
+	> Por exemplo, o Drácula é uma das melhores extensões de Temas para o VSCode, com padronizações de cores que facilitam a elaboração de códigos mais complexos;
+
+- python nome_do_arquivo.py - Roda o arquivo Python;
+
+Instalação do Jupyter:
+- pip uninstall traitlets;
+- pip install traitlets==5.9.0;
+
+- jupyter notebook list - Lista os notebooks que estão sendo executados no momento e mostra o token de acesso a eles;
+- jupyter-notebook --no-browser --port=8888 & - Inicia um notebook Jupyter na porta 8888. Usar o list para ver qual o caminho completo para o notebook;
+- ps aux | grep jupyter-notebook - Lista todos os processos que têm ‘jupyter-notebook’ no nome;
+- kill -9 <ID_do_Jupyter_Notebook> - Para o notebook;
+
+- print ('i' in 'Vinicius') # Case Sensitive: Verificar se há a letra 'i' em 'Vinicius'
+
+
+
+
+
