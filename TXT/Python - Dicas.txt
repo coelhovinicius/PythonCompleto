@@ -12,12 +12,19 @@ Dentro do VSCode:
 
 Instalação do Jupyter:
 - pip uninstall traitlets;
+
 - pip install traitlets==5.9.0;
 
 - jupyter notebook list - Lista os notebooks que estão sendo executados no momento e mostra o token de acesso a eles;
+
 - jupyter-notebook --no-browser --port=8888 & - Inicia um notebook Jupyter na porta 8888. Usar o list para ver qual o caminho completo para o notebook;
+
 - ps aux | grep jupyter-notebook - Lista todos os processos que têm ‘jupyter-notebook’ no nome;
+
 - kill -9 <ID_do_Jupyter_Notebook> - Para o notebook;
+
+
+---------------------------------------------------------------------------------------------------------
 
 - print ('i' in 'Vinicius') # Case Sensitive: Verificar se há a letra 'i' em 'Vinicius'
 
