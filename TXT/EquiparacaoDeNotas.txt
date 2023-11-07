@@ -1,0 +1,25 @@
+Aqui está um exemplo de como você pode equiparar as notas de letras com incrementos de '+', '++' e '-' para uma escala numérica de 0 a 10 com intervalos de 0,5. Por favor, note que isso é apenas uma aproximação e a conversão exata pode variar dependendo da instituição.
+
+- **A++**: 10,0
+- **A+**: 9,5
+- **A**: 9,0
+- **A-**: 8,5
+- **B++**: 8,0
+- **B+**: 7,5
+- **B**: 7,0
+- **B-**: 6,5
+- **C++**: 6,0
+- **C+**: 5,5
+- **C**: 5,0
+- **C-**: 4,5
+- **D++**: 4,0
+- **D+**: 3,5
+- **D**: 3,0
+- **D-**: 2,5
+- **E++**: 2,0
+- **E+**: 1,5
+- **E**: 1,0
+- **E- / F++**: 0,5
+- **F / F+ / F-**: 0,0
+
+Essa escala assume que cada incremento de '+', '++' ou '-' aumenta ou diminui a nota em meio ponto na escala numérica. Por exemplo, a diferença entre 'A' e 'A+' é de aproximadamente meio ponto na escala numérica. Novamente, isso é apenas uma aproximação e a conversão exata pode variar.
